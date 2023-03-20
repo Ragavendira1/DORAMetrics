@@ -1,7 +1,7 @@
 from jenkinsapi.jenkins import Jenkins
 
 # Connect to Jenkins using its URL and API token
-jenkins = Jenkins('http://52.50.112.255:8081/', username='expleo', password='http://52.50.112.255:8081/')
+jenkins = Jenkins('http://52.50.112.255:8081/', username='expleo', password='11a41733bcfde588c59244e85495db2276')
 
 # Get the total number of deployments per day
 deployments_job_name = 'EasyBuggy'
